@@ -22,7 +22,7 @@ pipeline {
 
       stage('Cloning Repository'){
           steps{
-              git branch: 'dev-backend-pipeline-feature' , url: 'https://tools.publicis.sapient.com/bitbucket/scm/psba/app.git'
+              git branch: 'master' , url: 'https://github.com/aarsh2211/ms3.git'
 
               
           }
